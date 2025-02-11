@@ -1,0 +1,111 @@
+2025-02-10 15:30:23,505 ERROR    Uncaught exception: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 977, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 732, in test_project
+    project.build()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 690, in build
+    p.build(clear)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 641, in build
+    run_command(['make', self.prog])
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 40, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+  File "C:\Users\cocky\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cocky\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-02-10 15:39:30,276 ERROR    Uncaught exception: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 977, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 732, in test_project
+    project.build()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 690, in build
+    p.build(clear)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 641, in build
+    run_command(['make', self.prog])
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 40, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+  File "C:\Users\cocky\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cocky\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-02-10 20:52:13,552 ERROR    Uncaught exception: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 977, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 732, in test_project
+    project.build()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 690, in build
+    p.build(clear)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 641, in build
+    run_command(['make', self.prog])
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cocky\downloads\pa1\autograde.py", line 40, in run_command
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+  File "C:\Users\cocky\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cocky\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
